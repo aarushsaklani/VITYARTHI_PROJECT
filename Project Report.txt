@@ -1,0 +1,49 @@
+
+          DIGITAL WALLET SYSTEM - PROJECT REPORT (Short)
+
+
+Title          : Digital Wallet System
+Submitted By   : Aarush Saklani                 Reg. No: 25BCE10542
+Date: 24-Nov-2025
+
+OBJECTIVE
+To create a simple digital wallet using Python OOP where two users can deposit, 
+withdraw, transfer money and view transaction history.
+
+FEATURES
+• Two wallets with custom names
+• Deposit & Withdraw (with balance check)
+• Send money to another wallet
+• View balance & full history
+• Each transaction has Timestamp + Unique TX-ID
+
+TECHNOLOGY USED
+• Python 3
+• Modules: uuid, datetime
+• No external packages
+
+CLASSES
+1. Transaction → stores id, action, amount, note, time
+2. Wallet      → owner, balance, history list + methods
+
+SAMPLE OUTPUT
+ $200.00 successfully sent to Rahul.
+ [2025-11-24 19:10:22] SEND | Amount: 200.0 | Sent to Rahul | TX-ID: a1b2c3d4
+
+LEARNING
+• Classes & Objects
+• List as transaction log
+• uuid & datetime usage
+• Menu-driven program
+
+LIMITATIONS
+• Only 2 wallets
+• Data lost on exit
+• No password
+
+FUTURE SCOPE
+• Unlimited wallets
+• Save data to file
+• Add PIN protection
+• GUI version
+
